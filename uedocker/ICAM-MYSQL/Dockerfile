@@ -39,7 +39,8 @@ RUN touch /root/.my.cnf && \
     chmod 600 /root/.my.cnf && \
     chown root:root /root/.my.cnf && \
     echo "[client]" >> /root/.my.cnf && \
-    echo "password=root" >> /root/.my.cnf
+    echo "password=root" >> /root/.my.cnf && \
+    cp /root/.my.cnf /etc/mysql/my.cnf
 
 #
 # Sailpoint required settings
