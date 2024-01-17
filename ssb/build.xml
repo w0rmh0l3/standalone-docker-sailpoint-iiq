@@ -21,7 +21,7 @@ xmlns:unless="ant:unless">
 
     <!-- local-dev is default value - set from command line with -Due.env=FOO -->
     <property name="ue.env" value="local-dev" />
-    <property name="ue.env.ssb" value="ssb-v7" />
+    <property name="ue.env.ssb" value="ssb-v7.0.2" />
 
     <!-- Constants for where things are -->
     <property name="ue.envconfig.path" value="./envconfig/${ue.env}" />

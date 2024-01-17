@@ -16,7 +16,7 @@ fi
 IS_WIN="$(uname | grep -Ec 'MINGW|Cygwin')"
 
 if [ "$IS_WIN" != "0" ]; then
-    build-lib/ant/bin/ant.bat $@
+    build-lib/ant/bin/ant.bat "$@"
 else
-    build-lib/ant/bin/ant $@
+    build-lib/ant/bin/ant "$@"
 fi

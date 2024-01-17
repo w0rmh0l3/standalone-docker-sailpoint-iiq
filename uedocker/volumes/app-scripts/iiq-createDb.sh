@@ -6,6 +6,7 @@ MYSQL_HOST="localhost"
 
 CREATION_SCRIPTS=(
         "${SP_HOME}/WEB-INF/database/create_identityiq_tables.mysql"
+        "${SP_HOME}/WEB-INF/database/accessHistory/create_identityiq_ah_db.mysql"
     )
 
 UPDATE_SCRIPTS=(
